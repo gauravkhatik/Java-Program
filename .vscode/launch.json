@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "user",
+      "request": "launch",
+      "mainClass": "Simple.user",
+      "projectName": "Java_76760ced"
+    },
+    {
+      "type": "java",
       "name": "simple",
       "request": "launch",
       "mainClass": "simple",
