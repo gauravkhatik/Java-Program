@@ -9,6 +9,7 @@ public class user {
     System.out.println("GKK");
     String name = input.nextLine();
     System.out.println("Nmae :- "+name);
+    System.out.println('hell0');
 
 
   }
