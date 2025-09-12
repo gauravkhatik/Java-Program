@@ -15,6 +15,8 @@ public class first {
         p6(n);
         p7(n);
         p8(n);
+        p9(n);
+        p10(n);
     }
 
     /*
@@ -80,7 +82,7 @@ public class first {
         System.out.println("Pttern 4 : ");
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= i; j++) {
-                System.out.print(j + " ");
+                System.out.print(i + " ");
             }
             System.out.println();
         }
@@ -149,6 +151,13 @@ public class first {
 
     }
 
+    /*
+*********
+ ******* 
+  *****  
+   ***   
+    * 
+     */
     public static void p8(int n) {
         System.out.println("Pttern 8 : ");
         for (int i = 0; i < n; i++) {
@@ -167,6 +176,51 @@ public class first {
             System.out.println();
         }
 
+    }
+
+    /*
+    *
+   **
+  ***
+ ****
+*****
+     */
+    public static void p9(int n) {
+        System.out.println("Pattern 9");
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= n - i; j++) {
+                System.out.print(" ");
+            }
+            for (int j = 1; j <= i; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+
+    /*
+*
+**
+***
+****
+*****
+****
+***
+**
+*
+     */
+    public static void p10(int n) {
+        System.out.println("Pattern 10");
+        for (int i = 0; i < 2 * n - 1; i++) {
+            int star = i;
+            if (i > n) {
+                star = 2 * n - i;
+            }
+            for (int j = 0; j < star; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
     }
 
 }

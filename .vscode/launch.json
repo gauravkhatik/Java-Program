@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "reversedigit",
+      "request": "launch",
+      "mainClass": "reversedigit",
+      "projectName": "Java_76760ced"
+    },
+    {
+      "type": "java",
+      "name": "countdigit",
+      "request": "launch",
+      "mainClass": "countdigit",
+      "projectName": "Java_76760ced"
+    },
+    {
+      "type": "java",
       "name": "user",
       "request": "launch",
       "mainClass": "Simple.user",
