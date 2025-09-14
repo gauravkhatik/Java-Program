@@ -16,7 +16,7 @@ public class countdigit {
             co = co + 1;
             num = num / 10;
         }
-        System.out.println("Count is : " + co);
+        System.out.println("Count is: " + co);
 
     }
 
